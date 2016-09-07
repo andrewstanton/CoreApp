@@ -1,6 +1,7 @@
 <?php
 
-require_once "../Config.php";
+require_once('Define.php');
+require_once(CP.'Config.php');
 require_once "CoreLog.php";
 require_once "Janitor.php";
 require_once "SqlCore.php";
