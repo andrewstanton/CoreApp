@@ -1,8 +1,6 @@
 <?php
 
-
-require_once('Define.php');
-require_once(CP.'Config.php');
+require_once(dirname(dirname(__FILE__)).'/Config.php');
 require_once('CoreDebug.php');
 
 class CoreLog {
